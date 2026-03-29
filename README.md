@@ -79,36 +79,36 @@ npm run build
 sahayam-ai/
 ├── src/
 │   ├── components/
-│   │   ├── AIVerification.jsx      # AI complaint verification
-│   │   ├── AlertsFeed.jsx          # Real-time alerts
+│   │   ├── AIVerification.jsx        # AI complaint verification
+│   │   ├── AlertsFeed.jsx           # Real-time alerts feed
 │   │   ├── AlertsNotifications.jsx  # Notification management
 │   │   ├── AnalyticsReports.jsx     # Analytics dashboard
-│   │   ├── AuditLogs.jsx          # Compliance tracking
-│   │   ├── CaseDetails.jsx        # Case information
-│   │   ├── CaseManagement.jsx      # Case list/management
+│   │   ├── AuditLogs.jsx            # Compliance tracking & logs
+│   │   ├── CaseDetails.jsx          # Individual case details
+│   │   ├── CaseManagement.jsx       # Case listing & management
 │   │   ├── ComplaintRegistration.jsx # 4-step complaint form
-│   │   ├── CrowdResponse.jsx       # Community feedback
-│   │   ├── FaceRecognition.jsx     # Face matching
-│   │   ├── FIRStatus.jsx          # FIR display
-│   │   ├── Header.jsx             # Top navigation
-│   │   ├── LiveMap.jsx            # Interactive map
-│   │   ├── LiveSightings.jsx      # Sighting reports
-│   │   ├── LocationClustering.jsx  # Heatmap
-│   │   ├── LocationIntelligence.jsx # Location analysis
-│   │   ├── NotificationSystem.jsx # Pop-up notifications
-│   │   ├── PredictionPanel.jsx    # AI predictions
-│   │   ├── SettingsPage.jsx       # User settings
-│   │   └── Sidebar.jsx            # Side navigation
-│   ├── App.jsx                    # Main app component
-│   ├── index.css                  # Global styles
-│   └── main.jsx                   # Entry point
-├── public/
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
-```
+│   │   ├── CrowdResponse.jsx        # Community response system
+│   │   ├── FaceRecognition.jsx      # Face detection & matching
+│   │   ├── FIRStatus.jsx            # FIR status display
+│   │   ├── Header.jsx               # Top navigation bar
+│   │   ├── LiveMap.jsx              # Interactive live map
+│   │   ├── LiveSightings.jsx        # Public sighting reports
+│   │   ├── LocationClustering.jsx   # Heatmap clustering
+│   │   ├── LocationIntelligence.jsx # Location analysis engine
+│   │   ├── NotificationSystem.jsx   # Real-time pop-up alerts
+│   │   ├── PredictionPanel.jsx      # AI prediction panel
+│   │   ├── SettingsPage.jsx         # User settings
+│   │   └── Sidebar.jsx              # Sidebar navigation
+│   ├── App.jsx                      # Main application component
+│   ├── main.jsx                     # Application entry point
+│   └── index.css                    # Global styles
+│
+├── public/                          # Static assets
+├── index.html                       # Root HTML file
+├── package.json                     # Project dependencies
+├── tailwind.config.js               # Tailwind CSS config
+├── vite.config.js                   # Vite configuration
+└── README.md                        # Project documentation
 
 ## Design System
 
